@@ -15,13 +15,14 @@ async function getRepos() {
 const Repositories = async () => {
     const repos = await getRepos();
     // console.log(Array.isArray(repos));
+    // console.log(repos);
     return (
         <div className="repos-container">
             <h2>Repositories</h2>
             <ul className="repo-list">
                 {repos.map((repo) => (
                     <li key={repo.id}>
-                        <Link href={`code/repos/${repo.name}`}>
+                        <Link href={`/code/repos/${repo.full_name}`}>
                             <h3>{repo.name}</h3>
                             <p>{repo.description}</p>
                             <div className="repo-details">
