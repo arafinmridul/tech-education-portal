@@ -5,6 +5,9 @@ async function getRepos() {
     const response = await fetch(
         "https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc&per_page=15"
     );
+
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // simulate delay
+
     const data = await response.json();
     return data.items;
 }
