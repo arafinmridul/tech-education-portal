@@ -3,7 +3,13 @@ import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
 
 async function getRepos() {
     const response = await fetch(
-        "https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc&per_page=15"
+        "https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&order=desc&per_page=15",
+        {
+            next: {
+                // useful for data that changes frequently
+                revalidate: 120, // caching for 2 minutes and revalidating after that
+            },
+        }
     );
 
     await new Promise((resolve) => setTimeout(resolve, 1000)); // simulate delay

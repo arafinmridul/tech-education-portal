@@ -4,7 +4,12 @@ async function fetchRepoContents(user, repo) {
     await new Promise((resolve) => setTimeout(resolve, 3000)); // simulate delay
 
     const response = await fetch(
-        `https://api.github.com/repos/${user}/${repo}/contents`
+        `https://api.github.com/repos/${user}/${repo}/contents`,
+        {
+            next: {
+                revalidate: 120, // revalidate every 2 minutes
+            },
+        }
     );
     const contents = await response.json();
     return contents;
