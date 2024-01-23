@@ -1,11 +1,19 @@
-import React from "react";
-
 export const metadata = {
-    title: "Haha Page",
+    title: "About This Site",
 };
 
 const About = () => {
-    return <div>This is the about page</div>;
+    return (
+        <div>
+            <h2>About This Site</h2>
+            <p>
+                This site is a collection of resources for learning technology.
+                It contains a collection of courses from the top universities in
+                the world. You can also search for courses by keyword. This site
+                also contains top GitHub repositories and for learning.
+            </p>
+        </div>
+    );
 };
 
 export default About;
