@@ -11,9 +11,7 @@ const CoursesPage = () => {
 
     useEffect(() => {
         const fetchCourses = async () => {
-            const response = await fetch(
-                "https://tech-edu-portal.vercel.app/api/courses"
-            );
+            const response = await fetch("/api/courses");
             const data = await response.json();
 
             await new Promise((resolve) => setTimeout(resolve, 1000)); // simulate delay
