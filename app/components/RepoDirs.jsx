@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 async function fetchRepoContents(user, repo) {
-    await new Promise((resolve) => setTimeout(resolve, 3000)); // simulate delay
+    await new Promise((resolve) => setTimeout(resolve, 1500)); // simulate delay
 
     const response = await fetch(
         `https://api.github.com/repos/${user}/${repo}/contents`,

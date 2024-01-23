@@ -24,7 +24,7 @@ const Repositories = async () => {
     // console.log(repos);
     return (
         <div className="repos-container">
-            <h2>Repositories</h2>
+            <h2> Top Repositories </h2>
             <ul className="repo-list">
                 {repos.map((repo) => (
                     <li key={repo.id}>

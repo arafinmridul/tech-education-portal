@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "University of London BSc Computer Science",
+        "description": "Get prepared for the technology jobs of the future. Taught by experts from Goldsmiths, you'll master in-demand programming, mathematical and computing skills through project-based modules where you'll develop your own software. A choice of seven specialisms lets you tailor your degree to your career ambitions.",
+        "link": "https://www.london.ac.uk/study/courses/undergraduate/bsc-computer-science",
+        "level": "All Levels"
+    },
+    {
+        "id": 2,
+        "title": "Harvard University, CS50: Introduction to Computer Science",
+        "description": "Introduction to Computer Science from Harvard, better known as CS50, is the largest course on the Harvard campus and more than 4,000,000 learners worldwide have registered for the course on edX.",
+        "link": "https://www.edx.org/cs50",
+        "level": "All Levels"
+    },
+    {
+        "id": 3,
+        "title": "MITx: Introduction to Computer Science and Programming Using Python",
+        "description": "This course is the first of a two-course sequence: Introduction to Computer Science and Programming Using Python, and Introduction to Computational Thinking and Data Science. Together, they are designed to help people with no prior exposure to computer science or programming learn to think computationally and write programs to tackle useful problems.",
+        "link": "https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computer-science-and-programming-using-python?index=product&queryID=de824ecc37a01ae7f03007e7d0452502&position=1&results_level=first-level-results&term=mit&objectID=course-956319ec-8665-4039-8bc6-32c9a9aea5e9&campaign=Introduction+to+Computer+Science+and+Programming+Using+Python&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch",
+        "level": "All Levels"
+    },
+    {
+        "id": 4,
+        "title": "The University of Texas at Austin Master of Science in AI online",
+        "description": "The University of Texas at Austin Master of Science in Artificial Intelligence is a STEM-designated degree program offered online. The program is designed for students who want to pursue a career in AI, and can be completed in 1-3 years. No GRE required.",
+        "link": "https://www.edx.org/masters/online-masters-in-artificial-intelligence/online-master-artificial-intelligence-utaustinx?webview=false&campaign=Master+of+Science+in+Artificial+Intelligence+%28MSAI%29&source=edx&product_category=masters&category=degrees&medium=referral&lsrc=edx&version=edx&placement_url=https%3A%2F%2Fwww.edx.org%2F",
+        "level": "All Levels"
+    },
+    {
+        "id": 5,
+        "title": "IBM: Python for AI & Development Project",
+        "description": "Learners who successfully complete this IBM course can earn a skill badge — a detailed, verifiable and digital credential that profiles the knowledge and skills you’ve acquired in this course. Enroll to learn more, complete the course and claim your badge!",
+        "link": "https://www.edx.org/learn/python/ibm-python-for-ai-development-project?index=product&queryID=3f0de6bdda0c353772453011e920f39e&position=16&results_level=second-level-results&term=&objectID=course-b5f62d16-ac55-4b5f-ab39-d19dc635d158&campaign=Python+for+AI+%26+Development+Project&source=edX&product_category=course&placement_url=https%3A%2F%2Fwww.edx.org%2Fsearch",
+        "level": "All Levels"
+    }
+]
