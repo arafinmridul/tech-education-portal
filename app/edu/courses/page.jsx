@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import LoadingPage from "../../loading.jsx";
 import Courses from "../../components/Courses.jsx";
+import CourseSearch from "@/app/components/CourseSearch.jsx";
 
 const CoursesPage = () => {
     const [courses, setCourses] = useState([]);
@@ -28,6 +29,7 @@ const CoursesPage = () => {
     return (
         <>
             <h2> Top Courses </h2>
+            <CourseSearch getSearchResults={(results) => setCourses(results)} />
             <Courses courses={courses} />
         </>
     );
