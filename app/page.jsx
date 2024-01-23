@@ -1,18 +1,11 @@
-import React from "react";
-import Link from "next/link";
+import CoursesPage from "./edu/courses/page";
+import RepoPage from "./code/repos/page";
 
 const Homepage = () => {
     return (
-        <div>
-            This is the homepage
-            <ul>
-                <li>
-                    <Link href="/">Home</Link>
-                </li>
-                <li>
-                    <Link href="/about">About</Link>
-                </li>
-            </ul>
+        <div className="container">
+            <RepoPage />
+            <CoursesPage />
         </div>
     );
 };
