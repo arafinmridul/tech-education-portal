@@ -10,7 +10,7 @@ const About = () => {
                 This site is a collection of resources for learning technology.
                 It contains a collection of courses from the top universities in
                 the world. You can also search for courses by keyword. This site
-                also contains top GitHub repositories and for learning.
+                also contains top GitHub repositories for learning.
             </p>
         </div>
     );
