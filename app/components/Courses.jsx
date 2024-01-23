@@ -3,7 +3,7 @@ import Link from "next/link";
 const Courses = ({ courses }) => {
     return (
         <div className="courses">
-            {courses.mao((course) => (
+            {courses.map((course) => (
                 <div className="course" key={course.id}>
                     <h2>{course.title}</h2>
                     <small>Level : {course.level}</small>
